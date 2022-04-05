@@ -29,6 +29,7 @@ The project Movie Ticket Booking System is dedicated to the general requirements
 |LL08\_HL04|` `Deleting the details from the database| To be Implemented |
 
 # SWOT Analysis
+![PYTHON](https://user-images.githubusercontent.com/98873140/161683506-84d112ce-753f-48e9-af82-5b6687bde5af.png)
 
 # 5W's and 1H's 
 
