@@ -21,7 +21,6 @@ def t_movie():
     if f == 1:
       theater()
  
-# this theater function used to select screen
 def theater():
     print("***********  SCREENS  ***********")
     print("which screen do you want to watch movie:") 
@@ -34,7 +33,6 @@ def theater():
     ticket = int(input("number of ticket do you want?: "))
     timing(a)
  
-# this timing function used to select timing for movie
 def timing(a):
     time1 = {
         "1": "10.00-1.00",
@@ -107,7 +105,6 @@ def center():
     movie(a)
     return 0
  
-# this function is used to select city
 def city():
     print("**************************************************")
     print("**   WELCOME TO MOVIE TICKET BOOKING SYSTEM   **")
