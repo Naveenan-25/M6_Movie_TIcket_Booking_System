@@ -34,5 +34,13 @@ The project Movie Ticket Booking System is dedicated to the general requirements
 # 5W's and 1H's 
 ![PYTHON2](https://user-images.githubusercontent.com/98873140/161812962-9c2a920a-167a-4263-bce0-30715be9f701.png)
 
+# Advantages of Movie ticket booking system
 
+* Equal representation: Increase in the number of people from backward sections in various decision-making procedures, resulting in equal representation from different sections of the society.
+
+* Equal opportunities to the deserving candidates: It has helped some people from backward sections achieve higher posts or services in the public sector and some private institutions as well.
+
+* Implementation of justice and human rights: It has encouraged the people to fight for justice whenever there is a violation of their human rights.
+
+* Economic balance in the society: Reservation has slowed down the process of forward becoming richer and backward becoming poorer.
 
