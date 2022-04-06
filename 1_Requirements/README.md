@@ -36,11 +36,20 @@ The project Movie Ticket Booking System is dedicated to the general requirements
 
 # Advantages of Movie ticket booking system
 
-* Equal representation: Increase in the number of people from backward sections in various decision-making procedures, resulting in equal representation from different sections of the society.
+* Quick to do No need to travel anywhere 
 
-* Equal opportunities to the deserving candidates: It has helped some people from backward sections achieve higher posts or services in the public sector and some private institutions as well.
+* stress-free, hustle free booking of tickets.
 
-* Implementation of justice and human rights: It has encouraged the people to fight for justice whenever there is a violation of their human rights.
+* Easy payment options.
 
-* Economic balance in the society: Reservation has slowed down the process of forward becoming richer and backward becoming poorer.
+* Various additional schemes to avail on dis booking. Sply when u have an account of site frm where you are doing booking.
 
+* You can have various options while choosing ur tickets.
+
+# Disadvantages of Movie ticket booking system
+
+* software glitch can cause u buy same ticket twice. And den you have to contact Cust care and stress urself for reversal.
+
+* Unfortunate network loss while paying online can leave you in confusion whether you have paid or have to. Again contact Cust care.
+
+* Need internet and PC experience Might need a credit card or some other form of payment Viruses/Trojans online that steal your information If the website is down, you   won’t be able to book it online
