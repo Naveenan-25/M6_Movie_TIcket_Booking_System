@@ -1,1 +1,1 @@
-# M6_Movie_TIcket_Booking_System
+# M6_Movie_Ticket_Booking_System
