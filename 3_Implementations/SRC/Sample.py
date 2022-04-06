@@ -124,6 +124,4 @@ def city():
       center()
     else:
       print("wrong choice")
- 
- 
 city() 
