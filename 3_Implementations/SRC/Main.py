@@ -22,8 +22,8 @@ def t_movie():
 
     movie = int(input("choose your movie: "))
 
-    #ifmovie == 12:
-       #Bill()
+    if movie == 12:
+       Payment()
 
     if movie == 11:
         food()
@@ -259,6 +259,14 @@ def city():
     else:
         print("wrong choice")
 
+def Payment():
+    print("**********************************")
+    print("************ Payment *************")
+    print("**********************************")
+    B = int(input("Enter the movie ticket price: "))
+    C = int(input("Enter the Food price: "))
+    D = B+C
+    print("The total price is", D)
 
 city()
 
