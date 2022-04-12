@@ -6,6 +6,8 @@ A = 'y'
 B = 0
 
 def t_movie():
+    
+    
     global f
     f = f \
         + 1
@@ -37,6 +39,8 @@ def t_movie():
 
 
 def Screen():
+    
+    
     print("**********************************")
     print("***********  SCREENS  ***********")
     print("**********************************")
@@ -52,6 +56,8 @@ def Screen():
 
 
 def timing(a):
+    
+    
     time1 = {
         "1": "10.00-1.00",
         "2": "1.10-4.10",
@@ -99,6 +105,8 @@ def timing(a):
 
 
 def movie(Screen):
+    
+    
     if Screen == 1:
         t_movie()
     elif Screen == 2:
@@ -112,6 +120,8 @@ def movie(Screen):
 
 
 def Theatre():
+    
+    
     print("**********************************")
     print("***********  THEATRES  ***********")
     print("**********************************")
@@ -125,7 +135,10 @@ def Theatre():
     movie(a)
     return 0
 
+
 def food():
+    
+    
     print("**********************************")
     print("*************  FOOD  *************")
     print("**********************************")
@@ -259,7 +272,10 @@ def city():
     else:
         print("wrong choice")
 
+        
 def Payment():
+    
+    
     print("**********************************")
     print("************ Payment *************")
     print("**********************************")
@@ -268,5 +284,6 @@ def Payment():
     D = B+C
     print("The total price is", D)
 
+    
 city()
 
