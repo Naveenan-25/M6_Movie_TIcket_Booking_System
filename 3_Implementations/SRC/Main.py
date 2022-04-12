@@ -6,8 +6,6 @@ A = 'y'
 B = 0
 
 def t_movie():
-    
-    
     global f
     f = f \
         + 1
@@ -24,13 +22,49 @@ def t_movie():
 
     movie = int(input("choose your movie: "))
 
-    if movie == 12:
-       Payment()
-
-    if movie == 11:
+    if movie == 1:
+        print("you have selected BEAST")
+        print("you have to select the Screen in the theatre")
+    elif movie == 2:
+        print("you have selected RRR")
+        print("you have to select the Screen in the theatre")
+    elif movie == 3:
+        print("you have selected KGF 2")
+        print("you have to select the Screen in the theatre")
+    elif movie == 4:
+        print("you have selected Doctor Strange 2")
+        print("you have to select the Screen in the theatre")
+    elif movie == 5:
+        print("you have selected Thor Love and Thunder")
+        print("you have to select the Screen in the theatre")
+    elif movie == 6:
+        print("you have selected Black Adam")
+        print("you have to select the Screen in the theatre")
+    elif movie == 7:
+        print("you have selected SPIDER-MAN ACROSS THE SPIDER VERSE")
+        print("you have to select the Screen in the theatre")
+    elif movie == 8:
+        print("you have selected BLACK PANTHER 2")
+        print("you have to select the Screen in the theatre")
+    elif movie == 9:
+        print("you have selected THE MARVELS")
+        print("you have to select the Screen in the theatre")
+    elif movie == 10:
+        print("you have selected THE FLASH")
+        print("you have to select the Screen in the theatre")
+    elif movie == 11:
         food()
+    elif movie == 12:
 
-    if movie == 13:
+        print("**********************************")
+        print("************ Payment *************")
+        print("**********************************")
+        D = int(input("The total ticket cost is: "))
+        B = int(input("The total Food cost is: "))
+        Amount = D + B
+        print("The total price is", Amount)
+        exit()
+    elif movie == 13:
         Theatre()
         Screen()
         return 0
@@ -39,8 +73,8 @@ def t_movie():
 
 
 def Screen():
-    
-    
+    C = 200
+
     print("**********************************")
     print("***********  SCREENS  ***********")
     print("**********************************")
@@ -52,12 +86,12 @@ def Screen():
 
     a = int(input("choose your screen: "))
     ticket = int(input("number of ticket do you want?: "))
+    D = C * ticket
+    print("Total cost of the ticket is: ", D)
     timing(a)
 
 
 def timing(a):
-    
-    
     time1 = {
         "1": "10.00-1.00",
         "2": "1.10-4.10",
@@ -105,8 +139,6 @@ def timing(a):
 
 
 def movie(Screen):
-    
-    
     if Screen == 1:
         t_movie()
     elif Screen == 2:
@@ -120,8 +152,6 @@ def movie(Screen):
 
 
 def Theatre():
-    
-    
     print("**********************************")
     print("***********  THEATRES  ***********")
     print("**********************************")
@@ -135,10 +165,7 @@ def Theatre():
     movie(a)
     return 0
 
-
 def food():
-    
-    
     print("**********************************")
     print("*************  FOOD  *************")
     print("**********************************")
@@ -272,18 +299,5 @@ def city():
     else:
         print("wrong choice")
 
-        
-def Payment():
-    
-    
-    print("**********************************")
-    print("************ Payment *************")
-    print("**********************************")
-    B = int(input("Enter the movie ticket price: "))
-    C = int(input("Enter the Food price: "))
-    D = B+C
-    print("The total price is", D)
-
-    
 city()
 
