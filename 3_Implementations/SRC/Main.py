@@ -18,7 +18,8 @@ def t_movie():
     print(content)
     print("11.FOOD")
     print("12.BILL")
-    print("13.BACK")
+    print("13.CANCEL")
+    print("14.BACK")
 
     movie = int(input("choose your movie: "))
 
@@ -52,10 +53,11 @@ def t_movie():
     elif movie == 10:
         print("you have selected THE FLASH")
         print("you have to select the Screen in the theatre")
+
     elif movie == 11:
         food()
-    elif movie == 12:
 
+    elif movie == 12:
         print("**********************************")
         print("************ Payment *************")
         print("**********************************")
@@ -64,10 +66,30 @@ def t_movie():
         Amount = D + B
         print("The total price is", Amount)
         exit()
+
     elif movie == 13:
+        C='a'
+
+        print("**********************************")
+        print("************ Cancel **************")
+        print("**********************************")
+        while (C == 'a'):
+           Q = input("Did you want to cancel your ticket(y/n)?: ")
+           if(Q == 'n'):
+               print("Your ticket has been canceled!!!!!!")
+               print("Your fair will be refunded shortly!!!!")
+               print("Thank you.....")
+               print("Have a nice day.......")
+           else:
+               print("invalid choice.....")
+               print("return to main menu........")
+               Theatre()
+
+    elif movie == 14:
         Theatre()
         Screen()
         return 0
+
     if f == 1:
         Screen()
 
