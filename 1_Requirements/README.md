@@ -42,13 +42,13 @@ The project Movie Ticket Booking System is dedicated to the general requirements
 
 * Easy payment options.
 
-* Various additional schemes to avail on dis booking. Sply when u have an account of site frm where you are doing booking.
+* Various additional schemes to avail on dis booking. Simply when you have an account of site from where you are doing booking.
 
-* You can have various options while choosing ur tickets.
+* You can have various options while choosing your tickets.
 
 # Disadvantages of Movie ticket booking system
 
-* software glitch can cause you buy same ticket twice. And then you have to contact Cust care and stress urself for reversal.
+* software glitch can cause you buy same ticket twice. And then you have to contact Cust care and stress yourself for reversal.
 
 * Unfortunate network loss while paying online can leave you in confusion whether you have paid or have to. Again contact Cust care.
 
