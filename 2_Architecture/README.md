@@ -10,7 +10,13 @@
 
 ![Use case](https://user-images.githubusercontent.com/98873140/162932458-3038b928-6070-422c-af34-a3b98722ee6f.png)
 
+# DATA FLOW DIAGRAM [LEVEL O]
+
+![Data flow digram1](https://user-images.githubusercontent.com/98873140/163101449-0e400b54-7f06-4961-a824-e213a9b37bc7.png)
+
+# DATA FLOW DIAGRAM [LEVEL 1]
 
 
 
+# DATA FLOW DIAGRAM [LEVEL 2]
 
