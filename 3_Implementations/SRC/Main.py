@@ -1,19 +1,13 @@
 class main():
 
 
-    global f
-    f = 0
-    A = 'y'
-    B = 0
-
-
     def t_movie(Self):
 
         global f
         f = f \
             + 1
         print("**********************************")
-        print("************  MOVIES  ************")
+        print("***********  MOVIES  ************")
         print("**********************************")
         print("which movie do you want to watch?")
         file = open('Movies.txt', "r")
@@ -145,6 +139,7 @@ class main():
         ticket = int(input("number of ticket do you want?: "))
         D = C * ticket
         print("Total cost of the ticket is: ", D)
+        
         Self.timing(a)
 
 
@@ -208,16 +203,16 @@ class main():
 
         if Screen == 1:
             Self.t_movie()
-            
+
         elif Screen == 2:
             Self.t_movie()
-            
+
         elif Screen == 3:
             Self.t_movie()
-            
+
         elif Screen == 4:
             Self.city()
-            
+
         else:
             print("wrong choice")
 
@@ -240,12 +235,14 @@ class main():
 
     def food(self):
 
+
         print("**********************************")
         print("*************  FOOD  *************")
         print("**********************************")
         print("\t\t\tMenu\n1.vegetarian\n2.Non-vegetarian")
         A = 'y'
         B = 0
+
         while (A == 'y'):
 
             A1 = int(input("please Enter your Choice (1,2): "))
@@ -303,8 +300,7 @@ class main():
             elif (A1 == 2):
 
                 print("Welcome to Non-vegetarian Menu")
-                print("1.Chicken burger Rs.250\n2.Chicken pizza Rs.200\n3.Chicken Puffs Rs.150\n4.Chicken roll Rs.120")
-                
+                print("1.Chicken burger Rs.250\n2.Chicken pizza Rs.200\n3.Chicken Puffs Rs.150\n4.Chicken roll Rs.120\n5.Fresh juice Rs.100")
                 A12 = int(input("please select an option(1,2,3,4): "))
 
                 if (A12 == 1):
@@ -335,6 +331,14 @@ class main():
 
                     print("you have selected Chicken roll")
                     B += 120
+                    A = input("order again(y/n)?: ")
+                    print("your Bill is:", B)
+                    print("Thank you and visit again")
+                    
+                elif (A12 == 5):
+
+                    print("you have selected Fresh Juice")
+                    B += 100
                     A = input("order again(y/n)?: ")
                     print("your Bill is:", B)
                     print("Thank you and visit again")
@@ -379,6 +383,7 @@ class main():
             print("you have selected Namakkal")
             print("you have to select the theatres in the location")
             Self.Theatre()
+
 
         elif place == 5:
 
