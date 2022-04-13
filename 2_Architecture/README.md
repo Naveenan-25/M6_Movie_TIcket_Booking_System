@@ -16,6 +16,7 @@
 
 # DATA FLOW DIAGRAM [LEVEL 1]
 
+![Data flow digram2](https://user-images.githubusercontent.com/98873140/163102373-2309c5ae-6f83-4285-858b-9f1aaef45348.png)
 
 
 # DATA FLOW DIAGRAM [LEVEL 2]
