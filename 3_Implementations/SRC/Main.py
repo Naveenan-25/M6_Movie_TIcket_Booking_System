@@ -380,7 +380,6 @@ class main():
             print("you have to select the theatres in the location")
             Self.Theatre()
 
-
         elif place == 5:
 
             print("you have selected madurai")
