@@ -13,7 +13,7 @@ class main():
         f = f \
             + 1
         print("**********************************")
-        print("***********  MOVIES  ************")
+        print("************  MOVIES  ************")
         print("**********************************")
         print("which movie do you want to watch?")
         file = open('Movies.txt', "r")
@@ -208,12 +208,16 @@ class main():
 
         if Screen == 1:
             Self.t_movie()
+            
         elif Screen == 2:
             Self.t_movie()
+            
         elif Screen == 3:
             Self.t_movie()
+            
         elif Screen == 4:
             Self.city()
+            
         else:
             print("wrong choice")
 
@@ -300,6 +304,7 @@ class main():
 
                 print("Welcome to Non-vegetarian Menu")
                 print("1.Chicken burger Rs.250\n2.Chicken pizza Rs.200\n3.Chicken Puffs Rs.150\n4.Chicken roll Rs.120")
+                
                 A12 = int(input("please select an option(1,2,3,4): "))
 
                 if (A12 == 1):
