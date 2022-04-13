@@ -2,4 +2,4 @@
 
 
  # Code Quality, Code Grade
-![code quality score]()   ![code quality score]()
+![code quality score](https://api.codiga.io/project/32756/score/svg)   ![code quality score](https://api.codiga.io/project/32756/status/svg)
