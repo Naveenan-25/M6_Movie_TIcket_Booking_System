@@ -1,11 +1,12 @@
 class main():
 
-
+    global f
+    f = 0
+    
     def t_movie(Self):
 
         global f
-        f = f \
-            + 1
+        f = f + 1
         print("**********************************")
         print("***********  MOVIES  ************")
         print("**********************************")
